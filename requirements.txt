@@ -1,0 +1,22 @@
+# Requirements
+
+## Software
+1. **R**: Version 4.0 or later. Download from [CRAN](https://cran.r-project.org/).
+2. **RStudio**: An optional IDE for R. Download from [RStudio](https://www.rstudio.com/).
+
+## R Packages
+The following packages are required for this project:
+
+| Package       | Description                                              | Installation Command                     |
+|---------------|----------------------------------------------------------|------------------------------------------|
+| `dplyr`       | A grammar of data manipulation.                          | `install.packages("dplyr")`             |
+| `ggplot2`     | Elegant graphics for data visualization.                 | `install.packages("ggplot2")`           |
+| `readxl`      | Read Excel files into R.                                 | `install.packages("readxl")`            |
+| `olsrr`       | Tools for building OLS regression models.                | `install.packages("olsrr")`             |
+| `ggcorrplot`  | Visualization of a correlation matrix using ggplot2.     | `install.packages("ggcorrplot")`        |
+| `MASS`        | Functions and datasets for modern applied statistics.    | `install.packages("MASS")`              |
+
+### Install All Packages at Once
+To install all required packages, run the following command in R:
+```r
+install.packages(c("dplyr", "ggplot2", "readxl", "olsrr", "ggcorrplot", "MASS"))
