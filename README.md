@@ -48,6 +48,33 @@ The analysis employs the following methods:
 
 ---
 
+## Code Functionality
+
+The provided R code performs a **regression analysis** to predict **concrete compressive strength** based on its composition and age. The key functionalities include:
+
+1. **Data Preprocessing**:
+   - Loads and cleans the dataset from the UCI Machine Learning Repository.
+   - Ensures proper formatting and handling of variables.
+
+2. **Descriptive and Correlation Analysis**:
+   - Summarizes the dataset using summary statistics.
+   - Generates a correlation matrix and plots to visualize relationships between variables.
+
+3. **Regression Modeling**:
+   - Builds a full linear regression model with all predictors.
+   - Includes polynomial transformations for non-linear relationships (e.g., Age²).
+
+4. **Model Selection**:
+   - Performs stepwise regression using AIC to identify optimal predictors.
+   - Applies best subset selection based on adjusted R².
+
+5. **Model Diagnostics**:
+   - Evaluates residuals for:
+     - Linearity,
+     - Homoscedasticity,
+     - Normality,
+     - Multicollinearity.
+
 ## Outputs
 
 ### Descriptive Statistics
